@@ -1,0 +1,3 @@
+/.venv
+/madlib_cli/__pycache__
+start_tests/__pycache__
