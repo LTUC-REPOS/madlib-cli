@@ -7,6 +7,17 @@ from nltk.corpus import wordnet
 #path = "assets/dark_and_stormy_night_template.txt"
 path = "assets/story.txt"
 
+def welcome():
+
+    print('''
+        Welcome to my first MadLib Game! 
+        A Madlib is a pre-generated story for you to enter your own words into. 
+        It's a fun way to pass the time.
+    ''')
+
+
+welcome()
+
 def validate_input(input):
     word = wordnet.synsets(input)
     if (word):
